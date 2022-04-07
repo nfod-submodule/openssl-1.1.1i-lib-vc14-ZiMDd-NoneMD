@@ -25,3 +25,14 @@ Thumbs.db
 
 ### Ignore specific files and directories
 *.lnk
+.vs/
+ipch/
+vsout/
+[Dd]ebug/
+[Rr]elease/
+x64[Dd]ebug/
+x64[Rr]elease/
+Win64[Dd]ebug/
+Win64[Rr]elease/
+Win32[Dd]ebug/
+Win32[Rr]elease/
