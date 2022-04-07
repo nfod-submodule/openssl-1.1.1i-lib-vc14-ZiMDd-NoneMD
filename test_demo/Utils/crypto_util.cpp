@@ -924,7 +924,7 @@ bool crypto_util::rsa_public_key_decrypt(
 			break;
 		}
 		output.assign((char*)output_dec, ret_len);
-		SAFE_ASSERT(output.size() == ret_len);
+		SAFE_ASSERT(output.size() == (size_t)ret_len);
 		SAFE_FREE(input_base64_dec);
 		SAFE_DELETE_ARRAY(output_dec);
 
@@ -1022,7 +1022,7 @@ bool crypto_util::rsa_private_key_decrypt(
 			break;
 		}
 		output.assign((char*)output_dec, ret_len);
-		SAFE_ASSERT(output.size() == ret_len);
+		SAFE_ASSERT(output.size() == (size_t)ret_len);
 		SAFE_FREE(input_base64_dec);
 		SAFE_DELETE_ARRAY(output_dec);
 
