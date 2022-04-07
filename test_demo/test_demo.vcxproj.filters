@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utils\crypto_util.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{3aa62e39-a041-4eb6-b62f-1dd8169172bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\crypto_util.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
