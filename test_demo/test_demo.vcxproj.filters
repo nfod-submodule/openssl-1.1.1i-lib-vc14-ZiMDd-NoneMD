@@ -5,6 +5,7 @@
     <ClCompile Include="Utils\crypto_util.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
+    <ClCompile Include="tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Utils">
@@ -15,5 +16,6 @@
     <ClInclude Include="Utils\crypto_util.h">
       <Filter>Utils</Filter>
     </ClInclude>
+    <ClInclude Include="tests.h" />
   </ItemGroup>
 </Project>
