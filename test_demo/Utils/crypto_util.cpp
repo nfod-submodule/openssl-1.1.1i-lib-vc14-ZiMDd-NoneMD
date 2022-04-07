@@ -99,7 +99,7 @@ bool crypto_util::hexstr_to_buf(
 		*q++ = (unsigned char)((chi << 4) | cli);
 	}
 
-	SAFE_ASSERT(q - buffer == buffer_len);
+	SAFE_ASSERT((size_t)(q - buffer) == buffer_len);
 	*output = buffer;
 	*output_len = buffer_len;
 	return true;

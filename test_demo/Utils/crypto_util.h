@@ -115,7 +115,7 @@ public:
 		const size_t input_len,
 		unsigned char** output,
 		size_t* output_len,
-		bool with_new_line);
+		bool with_new_line = false);
 
 	/**
 	 * base64½âÃÜ
@@ -131,7 +131,7 @@ public:
 		const size_t input_len,
 		unsigned char** output,
 		size_t* output_len,
-		bool with_new_line);
+		bool with_new_line = false);
 
 	/**
 	 * base64¼ÓÃÜ×Ö·û´®
@@ -143,7 +143,7 @@ public:
 	static bool base64_encode_str(
 		const std::string& input,
 		std::string& output,
-		bool with_new_line);
+		bool with_new_line = false);
 
 	/**
 	 * base64½âÃÜ×Ö·û´®
@@ -155,7 +155,7 @@ public:
 	static bool base64_decode_str(
 		const std::string& input,
 		std::string& output,
-		bool with_new_line);
+		bool with_new_line = false);
 
 public:
 	/*************************************************************************
